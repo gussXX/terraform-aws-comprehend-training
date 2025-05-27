@@ -64,7 +64,7 @@ resource "aws_comprehend_entity_recognizer" "aws_comprehend_module" {
     }
     # Polices para o treinamento do reconhecedor de entidades.
     depends_on = [
-    aws_iam_role_policy.example
+        aws_iam_role_policy.example
     ]
 }
 
